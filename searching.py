@@ -12,7 +12,7 @@ def LinearSearch(arr, number):
 def BinarySearch(arr, number):
     arr.sort()  
     low = 0
-    high = len(arr) - 1
+    high = len(arr)-1
     while low <= high:
         mid = (low + high) // 2
         if arr[mid] < number:
@@ -24,7 +24,8 @@ def BinarySearch(arr, number):
     return -1
 
 arr=[]
-for i in range(5):
+num=int(input("how many numbers you want to add : "))
+for i in range(num):
     element = int(input(f"Enter element {i+1}: "))
     arr.append(element)
 
@@ -32,9 +33,9 @@ for i in range(5):
 print(arr)
 
 while True:
-    number=int(input("which number you want to find : "))
     menu()
     choice =int(input("enter your choice: "))
+    number=int(input("which number you want to find : "))
     if choice==1:
         index =LinearSearch(arr, number)
         if index != -1 :    
@@ -51,5 +52,3 @@ while True:
         break 
     else :
         print("invalid input ")
-
-
