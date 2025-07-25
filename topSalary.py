@@ -15,5 +15,5 @@ for a in range (n):
 sortedArr = bubbleSort(arr, n)
 print(sortedArr)
 print("Top 5 salary's")
-for i in range (n-5 ,n) :
-    (sortedArr[i])
+for b in range (n-1 ,n-6, -1):
+    print(sortedArr[b])
