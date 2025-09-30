@@ -1,14 +1,16 @@
+
+
 class Employee:
-    def __init__(self, name, position, salary):
+    def __init__(self, name, position, workingdays, dailywages):
         self.name = name
         self.position = position
-        self.salary = salary
+        self.workingdays =workingdays
+        self.dailywages=dailywages
 
+    def computePay(self):
+        return self.dailywages * self.workingdays
+    
+    
     def display_info(self):
-        print(f"Name: {self.name}\nPosition: {self.position}\nSalary: ${self.salary}")
+        print(f"Name: {self.name}\nPosition: {self.position}\n")
         
-emp1 = Employee("Alice", "Developer", 80000)
-emp1.display_info()
-
-emp2 = Employee("Bob", "Manager", 95000)
-emp2.display_info()
