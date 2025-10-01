@@ -1,36 +1,31 @@
-class salesEmployee:
-    def __init__(self, Firstname, lastname,email, contactno , workingDays,  dailywages, providentfund=500, insentive = 7000, target = 500, commission = 0.02, total_sales= 0):
-        self.Firstname = Firstname
-        self.lastname = lastname
-        self.email = email
-        self.contactno = contactno
-        self.workingDays = workingDays
-        self.dailywages = dailywages    
-        self.providentfund = providentfund
-        self.insentive = insentive 
-        self.target = target
-        self.commission = commission
-        self.total_sales = total_sales
-    def compute_salary(self):
-        basesalary = self.workingDays * self.dailywages
-        tax = 0.18 * basesalary
-        self.totalsalary = basesalary - tax - self.providentfund
-        self.totalsalary += self.commission * total_sales
-        if total_sales >= self.target:
-            self.totalsalary += self.insentive
-        print(f"Total Salary: {self.totalsalary}")
 
-    def __display_info(self):
-        print(f"Name: {self.Firstname} {self.lastname}")
-        print(f"Email: {self.email}")
-        print(f"Contact No: {self.contactno}")
-        print(f"Working Days: {self.workingDays}")
-        print(f"Daily Wages: {self.dailywages}")
-        print(f"Provident Fund: {self.providentfund}")
-        print(f"Insentive: {self.insentive}")
-        print(f"Target: {self.target}")
-        print(f"total salary :{emp1.compute_salary()}")
-emp1 = salesEmployee("John", "Doe", "john.doe@example.com", "1234567890", 50000, 22, 200, 5000)
-total_sales = int(input("Enter total sales made by the employee: "))
-emp1.compute_salary(total_sales)
-emp1.__display_info()
+from Inheritance import Employee
+
+class SalesEmployee(Employee):
+
+    def __init__(self, name,position, workingDays,dailywages,incentive, targetAmount,totalSalesDone ):
+        super().__init__(name,position, workingDays,dailywages)
+        self.incentive = incentive 
+        self.targetAmount=targetAmount
+        self.totalSalesDone = totalSalesDone
+        self.totalsalary=0
+
+
+
+    def computePay(self):
+        basicSalary=super().computePay()
+
+        if self.totalSalesDone >= self.targetAmount:
+            calculatedSalary= basicSalary+self.incentive
+        else:
+            calculatedSalary=basicSalary
+        tax = 0.18 * calculatedSalary
+        self.totalsalary=calculatedSalary-tax
+        return self.totalsalary
+        
+
+    def display_info(self):
+        super().display_info()
+        print(f"total salary :{self.computePay()}")
+
+        
