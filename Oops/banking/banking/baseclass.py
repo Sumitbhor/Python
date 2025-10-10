@@ -16,8 +16,8 @@ class BankAccount:
             print(self.balance)
     def get_details(self):
         print (
-            "account_number"+ self.account_number+
-            "account_holder"+ self.account_holder+
-            "balance"+ self.balance
+            f"Account Number: {self.account_number}\n"
+            f"Account Holder: {self.account_holder}\n"
+            f"Balance: {self.balance}"
         )
 
