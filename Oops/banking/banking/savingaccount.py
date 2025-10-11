@@ -5,5 +5,6 @@ class savingaccount(BankAccount):
         self.interestrate=interestrate
     def computebalance(self):
         interest=( self.balance*self.interestrate)/100
-        self.balance+=interest
+        self.balance= self.balance + interest
         print(self.balance )
+

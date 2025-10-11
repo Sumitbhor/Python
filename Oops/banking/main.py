@@ -10,3 +10,4 @@ h3.withdrawamount(25000)
 
 h4 = BankAccount(1003,"sagar",15000)
 h4.get_details()
+h4.deposit(1000)
