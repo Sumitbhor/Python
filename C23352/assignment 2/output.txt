@@ -1,0 +1,15 @@
+PS C:\Users\hp\Desktop\C23352> python -u "c:\Users\hp\Desktop\C23352\assignment 2\assignment2.py"
+Enter the number of employees: 5
+Enter salary of employee 1: 50000
+Enter salary of employee 2: 15000
+Enter salary of employee 3: 85
+Enter salary of employee 4: 411200
+Enter salary of employee 5: 559204
+
+Original Salaries: [50000.0, 15000.0, 85.0, 411200.0, 559204.0]
+
+Selection Sort (Ascending): [85.0, 15000.0, 50000.0, 411200.0, 559204.0]
+Bubble Sort (Ascending): [85.0, 15000.0, 50000.0, 411200.0, 559204.0]
+
+Top 5 Highest Salaries (Descending): [559204.0, 411200.0, 50000.0, 15000.0, 85.0]
+PS C:\Users\hp\Desktop\C23352> 

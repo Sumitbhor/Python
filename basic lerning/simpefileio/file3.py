@@ -29,15 +29,13 @@ while True:
         csv_file.display_csv()
 
     elif choice == "2":
-        # Step 1: Take input from user
+
         name = input("Enter Name: ")
         age = input("Enter Age: ")
         city = input("Enter City: ")
 
-        # Step 2: Store in an object (list in this case)
         row_obj = [name, age, city]
 
-        # Step 3: Pass object to class method
         csv_file.add_row(row_obj)
         print("Row added successfully!")
 

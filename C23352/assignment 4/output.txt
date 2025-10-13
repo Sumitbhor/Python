@@ -1,0 +1,110 @@
+PS C:\Users\hp\Desktop\C23352> python -u "c:\Users\hp\Desktop\C23352\assignment 4\assignment4.py"
+
+1. Add Student
+2. Delete Student
+3. Update Student
+4. Search Student
+5. Display Students
+6. Display Sorted by Marks
+7. Reverse List
+8. Exit
+Enter your choice: 1
+Enter Roll No: 1
+Enter Name: sumit
+Enter Marks: 52
+
+1. Add Student
+2. Delete Student
+3. Update Student
+4. Search Student
+5. Display Students
+6. Display Sorted by Marks
+7. Reverse List
+8. Exit
+Enter your choice: 1
+Enter Roll No: 2   
+Enter Name: sanika
+Enter Marks: 96
+
+1. Add Student
+2. Delete Student
+3. Update Student
+4. Search Student
+5. Display Students
+6. Display Sorted by Marks
+7. Reverse List
+8. Exit
+Enter your choice: 5
+Roll No: 1, Name: sumit, Marks: 52.0
+Roll No: 2, Name: sanika, Marks: 96.0
+
+1. Add Student
+2. Delete Student
+3. Update Student
+4. Search Student
+5. Display Students
+6. Display Sorted by Marks
+7. Reverse List
+8. Exit
+Enter your choice: 3
+Enter Roll No to update: 2
+Enter new Name (press Enter to skip): parikshit
+Enter new Marks (press Enter to skip): 85
+
+1. Add Student
+2. Delete Student
+3. Update Student
+4. Search Student
+5. Display Students
+6. Display Sorted by Marks
+7. Reverse List
+8. Exit
+Enter your choice: 5
+Roll No: 1, Name: sumit, Marks: 52.0
+Roll No: 2, Name: parikshit, Marks: 85.0
+
+1. Add Student
+2. Delete Student
+3. Update Student
+4. Search Student
+5. Display Students
+6. Display Sorted by Marks
+7. Reverse List
+8. Exit
+Enter your choice: 4
+Enter Roll No to search: 2
+Roll No: 2, Name: parikshit, Marks: 85.0
+
+1. Add Student
+2. Delete Student
+3. Update Student
+4. Search Student
+5. Display Students
+6. Display Sorted by Marks
+7. Reverse List
+8. Exit
+Enter your choice: 6
+Roll No: 1, Name: sumit, Marks: 52.0
+Roll No: 2, Name: parikshit, Marks: 85.0
+
+1. Add Student
+2. Delete Student
+3. Update Student
+4. Search Student
+5. Display Students
+6. Display Sorted by Marks
+7. Reverse List
+8. Exit
+Enter your choice: 7
+List reversed
+
+1. Add Student
+2. Delete Student
+3. Update Student
+4. Search Student
+5. Display Students
+6. Display Sorted by Marks
+7. Reverse List
+8. Exit
+Enter your choice: 8
+PS C:\Users\hp\Desktop\C23352> 

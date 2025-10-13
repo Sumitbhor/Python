@@ -1,0 +1,92 @@
+PS C:\Users\hp\Desktop\C23352> python -u "c:\Users\hp\Desktop\C23352\assignment 3\assignment3.py"
+Options:
+1. Make a Change
+2. Undo
+3. Redo
+4. Display Document
+5. Exit
+Enter your choice (1-5): 1
+Enter the text to add: sumit
+Change added.
+Options:
+1. Make a Change
+2. Undo
+3. Redo
+4. Display Document
+5. Exit
+Enter your choice (1-5): 2
+Undo performed.
+Options:
+1. Make a Change
+2. Undo
+3. Redo
+4. Display Document
+5. Exit
+Enter your choice (1-5): parikshit
+Invalid choice. Try again.
+Options:
+1. Make a Change
+2. Undo
+3. Redo
+4. Display Document
+5. Exit
+Enter your choice (1-5): 1
+Enter the text to add: ashwin
+Change added.
+Options:
+1. Make a Change
+2. Undo
+3. Redo
+4. Display Document
+5. Exit
+Enter your choice (1-5): 1
+Enter the text to add: dhiraj
+Change added.
+Options:
+1. Make a Change
+2. Undo
+3. Redo
+4. Display Document
+5. Exit
+Enter your choice (1-5): 2
+Undo performed.
+Options:
+1. Make a Change
+2. Undo
+3. Redo
+4. Display Document
+5. Exit
+Enter your choice (1-5): 4
+
+Current Document State:
+ashwin
+
+Options:
+1. Make a Change
+2. Undo
+3. Redo
+4. Display Document
+5. Exit
+Enter your choice (1-5): 3
+Redo performed.
+Options:
+1. Make a Change
+2. Undo
+3. Redo
+4. Display Document
+5. Exit
+Enter your choice (1-5): 4
+
+Current Document State:
+ashwin
+dhiraj
+
+Options:
+1. Make a Change
+2. Undo
+3. Redo
+4. Display Document
+5. Exit
+Enter your choice (1-5): 5
+Exiting...
+PS C:\Users\hp\Desktop\C23352>
