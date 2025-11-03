@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Ravi",
+        "age": 51,
+        "city": "Pune"
+    },
+    {
+        "name": "Sachin",
+        "age": 43,
+        "city": "Mumbai"
+    },
+    {
+        "name": "Sumit",
+        "age": 27,
+        "city": "Nashik"
+    },
+    {
+        "name": "Manoj",
+        "age": 26,
+        "city": "Sambhaji Nagar"
+    },
+    {
+        "name": "Pritam",
+        "age": 25,
+        "city": "Nagpur"
+    },
+    {
+        "name": "Sarang",
+        "age": 23,
+        "city": "Kolhapur"
+    },
+    {
+        "name": "shree",
+        "age": 15,
+        "city": "Delhi"
+    },
+    {
+        "name": "shree",
+        "age": 15,
+        "city": "Delhi"
+    }
+]
