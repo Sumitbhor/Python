@@ -24,7 +24,7 @@ class StudentLinkedList:
         if current and current.roll_no == roll_no:
             self.head = current.next
             return
-        prev = None
+        prev = None               
         while current and current.roll_no != roll_no:
             prev = current
             current = current.next

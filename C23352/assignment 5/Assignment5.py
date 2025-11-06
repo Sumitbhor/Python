@@ -8,10 +8,6 @@ class HashTable:
 
     def insert(self, key, value):
         index = self.hash_function(key)
-        for pair in self.table[index]:
-            if pair[0] == key:
-                pair[1] = value
-                return
         self.table[index].append([key, value])
 
     def search(self, key):
@@ -71,5 +67,5 @@ def main():
         else:
             print("Invalid choice! Please try again.")
 
-if __name__ == "__main__":
-    main()
+
+main()

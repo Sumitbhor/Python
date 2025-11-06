@@ -1,5 +1,4 @@
-from collections import deque  # ✅ Required for BFS queue
-
+from collections import deque 
 # Sample locations and routes
 locations = ['A', 'B', 'C', 'D', 'E']
 

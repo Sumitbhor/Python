@@ -1,4 +1,4 @@
-
+ 
 TABLE_SIZE = 10
 hashtable = [[None, None] for _ in range(TABLE_SIZE)]
 
