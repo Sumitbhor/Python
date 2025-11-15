@@ -42,7 +42,7 @@ def delete(key):
 def display():
     print(hashtable)
 
-'''while(1):
+while(1):
     print("Menu*")
     print("Choose the appropriate option..")
     print("1 : Insert")
@@ -67,13 +67,3 @@ def display():
         display()
     else:
         exit()
-'''
-
-# # Example usage
-insert(100,"apple")
-insert(200,"banana" )
-insert(300,"grape")
-
-
-delete(100)
-display()
