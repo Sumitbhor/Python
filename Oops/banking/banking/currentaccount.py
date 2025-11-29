@@ -21,3 +21,4 @@ class currentaccount(BankAccount):
     def getdetails(self):
         return super().get_details()
     
+        
