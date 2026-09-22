@@ -1,5 +1,5 @@
 from claims.claim import Claim
-from claims.repository import ( save_claim, get_claim, get_all_claims )
+from claims.repository import ( save_claim, get_all_claims )
 
 
 def create_claim():
@@ -21,8 +21,8 @@ def create_claim():
 def process_claim():
 
     claim_id = int(input("Enter claim ID: "))
-
-    claim = get_claim(claim_id)
+    claims = get_all_claims()
+    claim =claims[claim_id]
 
     if claim is None:
         print("Claim not found.")
@@ -51,8 +51,8 @@ def process_claim():
 def get_claim_details():
 
     claim_id = int(input("Enter claim ID: "))
-
-    claim = get_claim(claim_id)
+    claims = get_all_claims()
+    claim =claims[claim_id]
 
     if claim:
         print(claim)

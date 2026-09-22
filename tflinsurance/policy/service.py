@@ -1,7 +1,8 @@
 from policy.Policy import Policy
+from policy.repository import (save_policy , get_all_policys)
 
 
-policies = []
+policies = get_all_policys()
 
 
 def calculate_premium(sum_insured):
@@ -20,7 +21,7 @@ def create_policy():
 
     policy = Policy( policy_id, customer_id, policy_type, sum_insured, premium )
 
-    policies.append(policy)
+    save_policy(policy)
 
     print("Policy created successfully.")
     print(policy)
